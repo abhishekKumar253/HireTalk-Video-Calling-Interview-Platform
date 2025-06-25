@@ -1,13 +1,14 @@
 import { QuickActionType } from "@/constants";
 import { Card } from "./ui/card";
 
-const ActionCard = ({
+
+function ActionCard({
   action,
   onClick,
 }: {
   action: QuickActionType;
   onClick: () => void;
-}) => {
+}) {
   return (
     <Card
       className="group relative overflow-hidden hover:border-primary/50 transition-all duration-300 hover:shadow-lg cursor-pointer"
@@ -39,6 +40,6 @@ const ActionCard = ({
       </div>
     </Card>
   );
-};
+}
 
 export default ActionCard;
