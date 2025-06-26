@@ -44,9 +44,9 @@ STREAM_SECRET_KEY=
 ```
 
 🚀 Getting Started
-1 .Install dependencies
- npm install
+1. Install dependencies
+  npm install
 
 2. Start the development server
 
-    npm run dev
+  npm run dev
